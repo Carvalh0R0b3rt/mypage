@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Button, Drawer, Space } from "antd";
-const  DrawerIndex= () => {
+import "./Drawer.css";
+
+const  DrawerIndex = () => {
   const [open, setOpen] = useState(false);
   const [placement] = useState("left");
   const showDrawer = () => {
@@ -24,10 +26,11 @@ const  DrawerIndex= () => {
           <Radio value="left">left</Radio>
         </Radio.Group>
         */}
-        <Button type="primary" onClick={showDrawer}>
-          Open
+        <Button className="Primary" type="primary" onClick={showDrawer}>
+          ☲ Menu
         </Button>
       </Space>
+      
       <Drawer
         title="Basic Drawer"
         placement={placement}
@@ -40,6 +43,7 @@ const  DrawerIndex= () => {
         <p>Some contents...</p>
         <p>Some contents...</p>
       </Drawer>
+      
     </>
   );
 };

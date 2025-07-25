@@ -1,5 +1,14 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 .App {
   text-align: center;
+  overflow: hidden;
+  background-color: cadetblue;
 }
 
 .App-logo {
@@ -14,12 +23,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: CENTER;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +43,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: relative;
+} 
+
+.banner h1 {
+  display: flex;
+  order: 2;
+ 
 }

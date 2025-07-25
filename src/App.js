@@ -1,14 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import MenuIndex from './Components/Menu/Index';
-import DrawerIndex from './Components/Menu/DrawerIndex';
-
+import logo from "./logo.svg";
+import "./App.css";
+import MenuIndex from "./Components/Menu/Index";
+import DrawerIndex from "./Components/Menu/DrawerIndex";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="banner">
+        <h1> Bem vindo - Testemunhe minha Evolução</h1>
         <DrawerIndex />
+      </div>
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
