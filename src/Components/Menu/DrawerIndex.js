@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Drawer, Space } from "antd";
 import "./Drawer.css";
 
-const  DrawerIndex = () => {
+const DrawerIndex = () => {
   const [open, setOpen] = useState(false);
   const [placement] = useState("left");
   const showDrawer = () => {
@@ -30,7 +30,7 @@ const  DrawerIndex = () => {
           ☲ Menu
         </Button>
       </Space>
-      
+
       <Drawer
         title="Basic Drawer"
         placement={placement}
@@ -43,7 +43,6 @@ const  DrawerIndex = () => {
         <p>Some contents...</p>
         <p>Some contents...</p>
       </Drawer>
-      
     </>
   );
 };

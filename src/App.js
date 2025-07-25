@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <div className="banner">
-        
         <h1> Bem vindo - Testemunhe minha Evolução</h1>
 
         <DrawerIndex />
