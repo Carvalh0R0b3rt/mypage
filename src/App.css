@@ -1,14 +1,7 @@
-.body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-
 .App {
   text-align: center;
   overflow: hidden;
-  background-color: cadetblue;
+background-color: #4b0000;
 }
 
 .App-logo {
@@ -23,7 +16,7 @@
 }
 
 .App-header {
-  
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,13 +26,14 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -47,13 +41,17 @@
 
 .banner {
   display: flex;
-  flex-direction: row;
-  justify-content: left;
+  flex-direction: column-reverse;
   position: relative;
-} 
+  align-items: flex-start;
+}
 
 .banner h1 {
-  display: flex;
-  order: 2;
- 
+  width: 100%;
+  text-align: center;
+}
+
+.banner DrawerIndex {
+  filter: drop-shadow(0 0 0.75rem crimson);
+
 }
