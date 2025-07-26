@@ -1,21 +1,23 @@
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
+//import { Color } from 'antd/es/color-picker';
 
 const items = [
   {
     key: 'sub1',
-    label: 'Navigation One',
+    label: 'Informações Gerais',
     icon: <MailOutlined />,
     children: [
       {
         key: 'g1',
-        label: 'Item 1',
+        label: 'Local e Presentes',
         type: 'group',
         children: [
-          { key: '1', label: 'Option 1' },
-          { key: '2', label: 'Option 2' },
+          { key: '1', label: 'Espaço ...' },
+          { key: '2', label: 'Lista de presentes e sugestões' },
         ],
       },
+      /*
       {
         key: 'g2',
         label: 'Item 2',
@@ -25,6 +27,7 @@ const items = [
           { key: '4', label: 'Option 4' },
         ],
       },
+      */
     ],
   },
   {
@@ -58,15 +61,17 @@ const items = [
       { key: '12', label: 'Option 12' },
     ],
   },
+  /*
   {
     key: 'grp',
     label: 'Group',
     type: 'group',
     children: [
       { key: '13', label: 'Option 13' },
-      { key: '14', label: 'Option 14' },
+      { key: '14', label: 'Site criado com muito carinho e amor pelo noivo.' },
     ],
   },
+  */
 ];
 const MenuIndex = () => {
   const onClick = e => {
@@ -75,7 +80,6 @@ const MenuIndex = () => {
   return (
     <Menu
       onClick={onClick}
-      style={{ width: 256 }}
       defaultSelectedKeys={['1']}
       mode="inline"
       items={items}

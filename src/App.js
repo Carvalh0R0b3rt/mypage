@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <div className="banner">
-        <h1> Bem vindo - Testemunhe minha Evolução</h1>
+        <h1> Cerimônia de Casamento </h1>
+        <h2> Robert e Raissa Carvalho</h2>
 
         <DrawerIndex />
       </div>

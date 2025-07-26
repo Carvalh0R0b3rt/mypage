@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Button, Drawer, Space } from "antd";
 import "./Drawer.css";
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
-import { Menu } from 'antd';
+import MenuIndex from "./Index"
 
+//O código abaixo foi retirado para melhor compartimentar os menus.
+/*import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import { Menu } from 'antd';
 const items = [
   {
     key: 'sub1',
@@ -85,11 +87,11 @@ const MenuIndex = () => {
     />
   );
 };
-
+*/
 
 function DrawerIndex() {
   const [open, setOpen] = useState(false);
-  const [placement] = useState("left");
+  const [placement] = useState("top");
   const showDrawer = () => {
     setOpen(true);
   };
@@ -110,6 +112,7 @@ function DrawerIndex() {
       </Space>
 
       <Drawer
+        className="MenuPrimary"
         title="Robert e Raissa Carvalho"
         placement={placement}
         closable={false}

@@ -1,10 +1,10 @@
 .Primary {
-    background-color: rgb(0, 0, 0);
+    background-color: darkcyan;
     border: 1px solid #d9d9d9;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
-.MenuInd {
-    text-align: center;
-    
+.ant-drawer-header {
+    background-color: darkcyan;
+    color: azure;
 }
