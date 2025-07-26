@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import MenuIndex from "./Components/Menu/Index";
 import DrawerIndex from "./Components/Menu/DrawerIndex";
 
 function App() {
@@ -12,9 +10,13 @@ function App() {
         <DrawerIndex />
       </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        <div className="DANGER">
+          <img src="./IMGS/DANGER.png" alt="DANGER"/>
+        </div>
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Atenção, site em construção.
         </p>
         <a
           className="App-link"
