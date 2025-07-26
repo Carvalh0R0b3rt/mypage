@@ -8,3 +8,8 @@
     background-color: darkcyan;
     color: azure;
 }
+
+.ant-drawer-body {
+    height: fit-content;
+    padding: 0px;
+}

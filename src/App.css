@@ -43,7 +43,7 @@
 
 .banner {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   position: relative;
   align-items: flex-start;
   background-color: aliceblue;
@@ -52,9 +52,16 @@
 .banner h1 {
   width: 100%;
   text-align: center;
+  font-family: "Apple Chancery", cursive;
 }
 
 .banner h2 {
   width: 100%;
   text-align: center;
+  font-family: "Kunstler Script", cursive;
+}
+
+.Drawer {
+  display: flex;
+
 }
