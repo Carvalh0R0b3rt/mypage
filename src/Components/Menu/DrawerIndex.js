@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Drawer, Space } from "antd";
 import "./Drawer.css";
-import MenuIndex from "./Index"
+import MenuIndex from "./DesktopIndex"
 
 //O código abaixo foi retirado para melhor compartimentar os menus.
 /*import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
