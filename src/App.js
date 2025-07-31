@@ -7,10 +7,11 @@ function App() {
   return (
     <div className="App">
       <div className="banner">
-
+        <img src="./public/IMGS/BannerPrincipal.png" alt="BannerP"/>
         <div className="mobileMenu">
-        </div>
         <DrawerIndex />
+        </div>
+        
         
 
         <h1> Cerimônia de Casamento </h1>
@@ -28,14 +29,7 @@ function App() {
         <p>
           Atenção, site em construção.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
