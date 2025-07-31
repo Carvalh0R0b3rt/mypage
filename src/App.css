@@ -9,6 +9,28 @@
   position: relative;
 }
 
+.MainMenuOrder {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.MainMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: #004aad;
+  position: absolute;
+  list-style: none;
+  
+}
+
 .MainBackground {
   display: flex;
   max-width: 100%;
