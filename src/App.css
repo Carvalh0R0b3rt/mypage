@@ -4,31 +4,25 @@
   flex-wrap: wrap;
   align-content: center;
   background-color: #004aad;
-  max-height: 55vh;
+  max-height: 60vh;
   overflow: hidden;
   position: relative;
 }
 
-.MainMenuOrder {
-  display: flex;
-  flex-direction: column-reverse;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
 .MainMenu {
+  order: 2;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 0px;
   width: 100%;
   max-width: 100%;
   background-color: #004aad;
   position: absolute;
+  bottom: 0px;
+  height: 50px;
   list-style: none;
-  
 }
 
 .MainBackground {
@@ -58,6 +52,8 @@
 
 .desktopMenu {
   display: flex;
+  min-height: 500px;
+  max-height: 60vh;
 }
 
 .mobileMenu {

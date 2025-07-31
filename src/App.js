@@ -15,14 +15,14 @@ function App() {
           {
             //adicionar menu em linha
           }
-          <div className="MainMenuOrder">
+          
           <menu className="MainMenu">
             <li>Início</li>
             <li>As Famílias</li>
             <li>Lista de presentes</li>
             <li>Confirme sua presença</li>
           </menu>
-          </div>
+          
         </div>
         
         <div className="MainBackground">
