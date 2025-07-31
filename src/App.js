@@ -5,33 +5,23 @@ import DrawerIndex from "./Components/Menu/DrawerIndex";
 */
 function App() {
   return (
-    <div className="App">
+    <section className="MainHeader">
       <div className="banner">
-        <img src="./public/IMGS/BannerPrincipal.png" alt="BannerP"/>
         <div className="mobileMenu">
-        <DrawerIndex />
+          <DrawerIndex />
+        </div>
+
+        <div className="desktopMenu">
+          {
+            //adicionar menu em linha
+          }
         </div>
         
-        
-
-        <h1> Cerimônia de Casamento </h1>
-        <h2> Robert e Raissa Carvalho</h2>
-
-
+        <div className="MainBackground">
+          <img src="./IMGS/BannerPrincipal2.png" alt="BannerP" />
+        </div>
       </div>
-
-        <header className="App-header">
-
-        <div id='Danger' className="DANGER">
-          <img src="./IMGS/DANGER.png" alt="DANGER" />
-        </div>
-
-        <p>
-          Atenção, site em construção.
-        </p>
-
-      </header>
-    </div>
+    </section>
   );
 }
 

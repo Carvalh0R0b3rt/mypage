@@ -107,7 +107,7 @@ function DrawerIndex() {
     <>
       <Space>
         <Button className="Primary" type="primary" onClick={showDrawer}>
-          ☲ Menu
+          ☲
         </Button>
       </Space>
 

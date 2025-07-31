@@ -1,46 +1,34 @@
-.App {
-  text-align: center;
-  overflow: hidden;
-  background-color: #dddcd7;
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
-.DANGER {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
-
-.App-link {
-  color: #000000;
-}
-
-
 .banner {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #004aad;
+  max-height: 55vh;
+  overflow: hidden;
   position: relative;
-  align-items: flex-start;
-  background-color: aliceblue;
+}
+
+.MainBackground {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  object-fit: cover;
 }
 
 .banner h1 {
+  display: flex;
+  flex-direction: column-reverse;
   width: 100%;
+  max-width: 100%;
   text-align: center;
   font-family: "Apple Chancery", cursive;
+  position: absolute;
 }
 
 .banner h2 {
+  display: flex;
   width: 100%;
   text-align: center;
   font-family: "Kunstler Script", cursive;
@@ -54,10 +42,41 @@
   display: none;
 }
 
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 400px) {
   .mobileMenu {
     display: flex;
+    position: absolute;
   }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    max-height: 20vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .mobileMenu {
+    display: flex;
+    position: absolute;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    max-height: 20vh;
+    overflow: hidden;
+    position: relative;
+  }
+
   .desktopMenu {
     display: none;
   }
