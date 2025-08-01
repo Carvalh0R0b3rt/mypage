@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  background-color: #004aad;
+  background-color: rgba(0, 74, 173, 1);
   max-height: 60vh;
   overflow: hidden;
   position: relative;
@@ -11,7 +11,6 @@
 }
 
 .MainMenu {
-  order: 2;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -19,8 +18,9 @@
   margin: 0px;
   width: 100%;
   max-width: 100%;
-  background: #1800AD;
-  background: linear-gradient(0deg,rgba(24, 0, 173, 1) 0%, rgba(0, 74, 173, 1) 60%, rgba(221, 220, 215, 1) 100%);
+  background: rgb(24, 0, 173);
+  background: linear-gradient(0deg,rgba(221, 220, 215, 0.9) 0%, rgba(0, 74, 173, 1) 20%,  rgb(24, 0, 173) 50%, rgba(0, 74, 173, 1) 75%,rgba(221, 220, 215, 0.5) 100%);
+  color: white;
   position: absolute;
   bottom: 0px;
   height: 50px;
